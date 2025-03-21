@@ -1,0 +1,72 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+.ImgTag img{
+     width: 150px;
+    height: 180px;
+    border-radius: 20px; /* ✅ Apply border-radius to the image */
+    object-fit: cover;
+    border: 2px solid gray;
+}
+
+.ImgTag{
+     margin: 20px;
+     box-shadow:inset;
+     border-radius: 5%;
+     /* imgag-radius: 20px; */
+     border: 2px solid rgb(255, 200, 0);
+     border-radius: 20px;
+}
+
+
+.name{
+     color: rgb(255, 230, 0);
+     font-weight: bold;
+     text-align: center;
+
+}
+
+.win{
+     position: absolute;
+     background-size: cover;
+     /* border: 2px solid pink; */
+     width: 400px;
+     height: 400px;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     background-color: rgba(0, 0, 0, 0.544);
+
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), /* Dark shadow */
+                0px 0px 15px rgba(255, 213, 3, 0.8); 
+}
+
+.win .cong{
+     font-size: 25px;
+     color: rgb(255, 200, 2);
+     font-weight: bold;
+     background-color: rgba(0, 0, 0, 0.233);
+}
+
+.win img{
+     position: relative;
+     width: 50%;
+     height: 50%;
+     transform: (-50%,-50%);
+}
+
+
+.point{
+     font-weight: bold;
+     font-size: 40px;
+     margin-top: 40px;
+     background-color: rgba(0, 0, 0, 0.233);
+     border-radius: 10px;
+     color: rgb(255, 179, 0);
+     /* background-color: red; */
+}

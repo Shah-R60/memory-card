@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main{
+  /* position: absolute; */
+
+}
+
+
+.main {
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/932/891/825/hogwarts-legacy-video-games-dragon-owl-harry-potter-hd-wallpaper-9846ad3860f06c28e07ce1ae58d2244a.jpg");
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: repeat; /* Prevents repeating */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.information{
+  border: 2px solid red;
+  color: brown;
+  width: 30%;
+}
+
+
+
+
+
+.subclass
+{
+/* margin-left: 300px; */
+/* width: 100%; */
+
+/* margin-top: 100px; */
+margin-left: 100px;
+/* margin-top: 200px; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 800px;
+  width: 70%;
+  max-width: 800px;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+  /* content:; */
+}
