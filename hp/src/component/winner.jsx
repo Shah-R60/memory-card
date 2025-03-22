@@ -8,8 +8,8 @@ export default function Winner({points , setWinner}){
           Congratulation , you played well ,  
           </p>
           <p className="point" style={{ fontFamily: 'Harry Potter' }}>{points} points to Gryffindor</p>
-          <p>Want to play more , harry?</p>
-          <button onClick={()=>{setWinner(false)}}>Yes</button>
+          <p className="ask">Want to play more , harry?</p>
+          <button onClick={()=>{setWinner(false)}}  style={{backgroundColor:"orange", color:"black"}}>Yes</button>
      </div>
      </>
  )

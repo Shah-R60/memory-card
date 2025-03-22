@@ -70,6 +70,8 @@ function App() {
   return (
     <div className='main'>
       <div className='information'>
+        <p className='intro'>Memory Card Game</p>
+        <p className='instruction'>Get points by clicking on an image but don't click on any more than once!</p>
       <p>Count:{count} </p>
       <p>BestScore:{bestScore}</p>
       </div>
